@@ -78,6 +78,19 @@ To ensure data privacy, users can only access data pertaining to their specific 
 
 ---
 
+## 💡 Key Business Insights
+*Beyond just building the dashboard, here are the strategic findings extracted from the data:*
+
+1. **Sales vs. Profitability Trends:** While total sales show a positive upward trend from 2011 to 2014, the overall profit margin has fluctuated and ultimately decreased over the same period. This indicates a strong need to investigate cost structures and discount strategies.
+2. **Seasonal Sales Patterns & Business Context:** There is a general year-over-year increase with consistent peak sales periods in **March, September, and November**. These recurring spikes likely correlate with specific retail cycles—for instance, September peaks may be driven by "Back to School" or Q3 end-of-quarter pushes, while November marks the beginning of the holiday shopping season. Understanding these underlying seasonal drivers is vital for forecasting demand, preparing inventory, and launching targeted marketing campaigns ahead of time.
+3. **Product Portfolio Management (Scatter Plot):** Sub-categories were strategically categorized based on Profit and Margin:
+   - **Stars (High Margin & High Profit):** (e.g., *Copiers, Accessories*) Should be maintained and prioritized for further investment.
+   - **Growth Opportunities (High Margin & Low Profit):** Strategies to increase sales volume in this quadrant could unlock significant growth.
+   - **Careful Monitoring (Low Margin & High Profit):** (e.g., *Phones, Chairs*) Close attention to cost control and potential price adjustments is necessary to maintain profitability.
+   - **Review or Discontinuation (Low Margin & Low Profit):** (e.g., *Tables, Bookcases*) These items operate at a loss and require a thorough review to identify opportunities for cost reduction or pricing overhauls.
+
+---
+
 ## 🛠️ Tools & Technologies Used
 - **Power BI Desktop** (Data Viz, Data Modeling, RLS)
 - **Power Query (M Language)** (Data Cleaning & ETL)
