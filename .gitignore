@@ -1,0 +1,5 @@
+# Ignore all markdown guides
+*.md
+
+# Keep the main README file
+!README.md
