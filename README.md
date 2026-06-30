@@ -4,13 +4,17 @@
 This project is an end-to-end **Power BI Enterprise Dashboard** designed to analyze the sales performance, profitability, and growth of a retail superstore. 
 The primary objective of this project is to demonstrate advanced Power BI capabilities, moving beyond basic data visualization to implement enterprise-level best practices in **Data Modeling, Advanced DAX, Row-Level Security (RLS), and UI/UX optimization**.
 
+## 📂 Data Source
+The dataset used in this project is the **Superstore Sales Dataset**, which contains granular transactional data for a retail superstore, including sales, profits, customer segments, and regional performance.
+- **Source:** [Kaggle - Superstore Dataset](https://www.kaggle.com/code/rawanma7moud/superstore)
+
 ## 🚀 Key Enterprise Features Implemented
 
 - **Data Modeling (Star Schema):** Transformed a flat `.csv` file into a robust Star Schema using Power Query. Separated data into 1 Fact Table (`Fact_Sales`) and multiple Dimension Tables (`Dim_Date`, `Dim_Customer`, `Dim_Product`, `Dim_Location`) to optimize performance and filter context.
 - **Advanced DAX & Time Intelligence:** Developed complex DAX measures for business analytics, including Year-to-Date (YTD) Sales, Year-over-Year (YoY) Growth %, and Compound Annual Growth Rate (CAGR).
 - **Row-Level Security (RLS):** Implemented dynamic security roles (e.g., `West_Manager`) to restrict data access at the row level, ensuring users only see data relevant to their region.
 - **Advanced UX/UI (Conditional Visibility):** Engineered a dynamic "Cover-up" technique using DAX (`HASONEVALUE`) to conditionally hide/show visuals based on slicer selections, enforcing user interaction and preventing misleading data interpretation.
-- **Cross-Platform Integration (Actionable Dashboard):** Integrated **Power Automate** directly into the dashboard, transforming it from a read-only report into an actionable tool (e.g., triggering email alerts to regional managers).
+- **Cross-Platform Integration (Proposed Architecture):** Designed an actionable workflow using **Power Automate** to transform the dashboard from a read-only report into an automated tool (e.g., triggering email alerts to regional managers). *(Note: Full hands-on implementation requires an Enterprise Office 365 license, but the conceptual architecture is fully prepared).*
 
 ---
 
@@ -22,7 +26,12 @@ The semantic model follows a strict 1-to-Many relationship architecture, ensurin
 ---
 
 ## 📈 Dashboard Preview
-![Dashboard Preview](Dashboard_Preview.gif)
+
+### 🔹 Executive Summary
+![Executive Summary](executive_summary.gif)
+
+### 🔹 Detailed Performance
+![Detailed Performance](detailed_performance.gif)
 
 ---
 
@@ -57,6 +66,15 @@ DIVIDE(
     0
 )
 ```
+
+### 3. Row-Level Security (RLS) in Action
+To ensure data privacy, users can only access data pertaining to their specific region (e.g., the West Manager can only see data for the West region).
+
+<details>
+<summary>👀 <b>Click to expand: RLS West Manager View</b></summary>
+
+![RLS West Manager View](RLS_West_Manager_View.png)
+</details>
 
 ---
 
