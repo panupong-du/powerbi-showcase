@@ -15,16 +15,14 @@ The primary objective of this project is to demonstrate advanced Power BI capabi
 ---
 
 ## 🏗️ Data Model (Star Schema)
-*(💡 Tip for you: Take a screenshot of your Power BI Model View, upload it to your GitHub repo, and replace the filename below)*
-![Data Model Example](Data_Model_Screenshot.png)
+![Data Model Architecture](Data_Model_Screenshot.png)
 
 The semantic model follows a strict 1-to-Many relationship architecture, ensuring efficient query performance and accurate filter propagation across the dashboard.
 
 ---
 
 ## 📈 Dashboard Preview
-*(💡 Tip for you: Take a screenshot or create a GIF of your Dashboard in action and replace the filename below)*
-![Dashboard Example](Dashboard_Screenshot.png)
+![Dashboard Preview](Dashboard_Preview.gif)
 
 ---
 
